@@ -14,6 +14,10 @@ void BankAccount::deposit(double amount) {
 }
 
 void BankAccount::withdraw(double amount) {
+    if (amount <= 0) {
+        cout << "Invalid withdrawal amount" << endl;
+        return;
+    }
     if (amount > balance) {
         cout << "Insufficient balance" << endl;
     } else {
