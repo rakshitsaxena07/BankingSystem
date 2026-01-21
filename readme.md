@@ -12,7 +12,7 @@ The system should support:
 - Class and Object
 - Encapsulation
 - Constructors
-- Header and source file separation
+
 
 ## How to Run
 g++ main.cpp BankAccount.cpp -o bank
